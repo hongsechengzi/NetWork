@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2D92CB419502FEE00CD49FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D92CB319502FEE00CD49FF /* Foundation.framework */; };
+		C2D92CB619502FEE00CD49FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D92CB519502FEE00CD49FF /* CoreGraphics.framework */; };
+		C2D92CB819502FEE00CD49FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D92CB719502FEE00CD49FF /* UIKit.framework */; };
+		C2D92CBE19502FEE00CD49FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2D92CBC19502FEE00CD49FF /* InfoPlist.strings */; };
+		C2D92CC019502FEE00CD49FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D92CBF19502FEE00CD49FF /* main.m */; };
+		C2D92CC419502FEE00CD49FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D92CC319502FEE00CD49FF /* AppDelegate.m */; };
+		C2D92CC619502FEE00CD49FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2D92CC519502FEE00CD49FF /* Images.xcassets */; };
+		C2D92CCD19502FEE00CD49FF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D92CCC19502FEE00CD49FF /* XCTest.framework */; };
+		C2D92CCE19502FEE00CD49FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D92CB319502FEE00CD49FF /* Foundation.framework */; };
+		C2D92CCF19502FEE00CD49FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D92CB719502FEE00CD49FF /* UIKit.framework */; };
+		C2D92CD719502FEE00CD49FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2D92CD519502FEE00CD49FF /* InfoPlist.strings */; };
+		C2D92CD919502FEE00CD49FF /* __18____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D92CD819502FEE00CD49FF /* __18____Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2D92CD019502FEE00CD49FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2D92CA819502FEE00CD49FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2D92CAF19502FEE00CD49FF;
+			remoteInfo = "作业18网络编程";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2D92CB019502FEE00CD49FF /* 作业18网络编程.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "作业18网络编程.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D92CB319502FEE00CD49FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C2D92CB519502FEE00CD49FF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C2D92CB719502FEE00CD49FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C2D92CBB19502FEE00CD49FF /* 作业18网络编程-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "作业18网络编程-Info.plist"; sourceTree = "<group>"; };
+		C2D92CBD19502FEE00CD49FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2D92CBF19502FEE00CD49FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2D92CC119502FEE00CD49FF /* 作业18网络编程-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "作业18网络编程-Prefix.pch"; sourceTree = "<group>"; };
+		C2D92CC219502FEE00CD49FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C2D92CC319502FEE00CD49FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C2D92CC519502FEE00CD49FF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C2D92CCB19502FEE00CD49FF /* 作业18网络编程Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "作业18网络编程Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D92CCC19502FEE00CD49FF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C2D92CD419502FEE00CD49FF /* 作业18网络编程Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "作业18网络编程Tests-Info.plist"; sourceTree = "<group>"; };
+		C2D92CD619502FEE00CD49FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2D92CD819502FEE00CD49FF /* __18____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__18____Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2D92CAD19502FEE00CD49FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D92CB619502FEE00CD49FF /* CoreGraphics.framework in Frameworks */,
+				C2D92CB819502FEE00CD49FF /* UIKit.framework in Frameworks */,
+				C2D92CB419502FEE00CD49FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2D92CC819502FEE00CD49FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D92CCD19502FEE00CD49FF /* XCTest.framework in Frameworks */,
+				C2D92CCF19502FEE00CD49FF /* UIKit.framework in Frameworks */,
+				C2D92CCE19502FEE00CD49FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2D92CA719502FEE00CD49FF = {
+			isa = PBXGroup;
+			children = (
+				C2D92CB919502FEE00CD49FF /* 作业18网络编程 */,
+				C2D92CD219502FEE00CD49FF /* 作业18网络编程Tests */,
+				C2D92CB219502FEE00CD49FF /* Frameworks */,
+				C2D92CB119502FEE00CD49FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2D92CB119502FEE00CD49FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2D92CB019502FEE00CD49FF /* 作业18网络编程.app */,
+				C2D92CCB19502FEE00CD49FF /* 作业18网络编程Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2D92CB219502FEE00CD49FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2D92CB319502FEE00CD49FF /* Foundation.framework */,
+				C2D92CB519502FEE00CD49FF /* CoreGraphics.framework */,
+				C2D92CB719502FEE00CD49FF /* UIKit.framework */,
+				C2D92CCC19502FEE00CD49FF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2D92CB919502FEE00CD49FF /* 作业18网络编程 */ = {
+			isa = PBXGroup;
+			children = (
+				C2D92CC219502FEE00CD49FF /* AppDelegate.h */,
+				C2D92CC319502FEE00CD49FF /* AppDelegate.m */,
+				C2D92CC519502FEE00CD49FF /* Images.xcassets */,
+				C2D92CBA19502FEE00CD49FF /* Supporting Files */,
+			);
+			path = "作业18网络编程";
+			sourceTree = "<group>";
+		};
+		C2D92CBA19502FEE00CD49FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2D92CBB19502FEE00CD49FF /* 作业18网络编程-Info.plist */,
+				C2D92CBC19502FEE00CD49FF /* InfoPlist.strings */,
+				C2D92CBF19502FEE00CD49FF /* main.m */,
+				C2D92CC119502FEE00CD49FF /* 作业18网络编程-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2D92CD219502FEE00CD49FF /* 作业18网络编程Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C2D92CD819502FEE00CD49FF /* __18____Tests.m */,
+				C2D92CD319502FEE00CD49FF /* Supporting Files */,
+			);
+			path = "作业18网络编程Tests";
+			sourceTree = "<group>";
+		};
+		C2D92CD319502FEE00CD49FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2D92CD419502FEE00CD49FF /* 作业18网络编程Tests-Info.plist */,
+				C2D92CD519502FEE00CD49FF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2D92CAF19502FEE00CD49FF /* 作业18网络编程 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2D92CDC19502FEE00CD49FF /* Build configuration list for PBXNativeTarget "作业18网络编程" */;
+			buildPhases = (
+				C2D92CAC19502FEE00CD49FF /* Sources */,
+				C2D92CAD19502FEE00CD49FF /* Frameworks */,
+				C2D92CAE19502FEE00CD49FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "作业18网络编程";
+			productName = "作业18网络编程";
+			productReference = C2D92CB019502FEE00CD49FF /* 作业18网络编程.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2D92CCA19502FEE00CD49FF /* 作业18网络编程Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2D92CDF19502FEE00CD49FF /* Build configuration list for PBXNativeTarget "作业18网络编程Tests" */;
+			buildPhases = (
+				C2D92CC719502FEE00CD49FF /* Sources */,
+				C2D92CC819502FEE00CD49FF /* Frameworks */,
+				C2D92CC919502FEE00CD49FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2D92CD119502FEE00CD49FF /* PBXTargetDependency */,
+			);
+			name = "作业18网络编程Tests";
+			productName = "作业18网络编程Tests";
+			productReference = C2D92CCB19502FEE00CD49FF /* 作业18网络编程Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2D92CA819502FEE00CD49FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					C2D92CCA19502FEE00CD49FF = {
+						TestTargetID = C2D92CAF19502FEE00CD49FF;
+					};
+				};
+			};
+			buildConfigurationList = C2D92CAB19502FEE00CD49FF /* Build configuration list for PBXProject "作业18网络编程" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C2D92CA719502FEE00CD49FF;
+			productRefGroup = C2D92CB119502FEE00CD49FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2D92CAF19502FEE00CD49FF /* 作业18网络编程 */,
+				C2D92CCA19502FEE00CD49FF /* 作业18网络编程Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2D92CAE19502FEE00CD49FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D92CBE19502FEE00CD49FF /* InfoPlist.strings in Resources */,
+				C2D92CC619502FEE00CD49FF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2D92CC919502FEE00CD49FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D92CD719502FEE00CD49FF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2D92CAC19502FEE00CD49FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D92CC419502FEE00CD49FF /* AppDelegate.m in Sources */,
+				C2D92CC019502FEE00CD49FF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2D92CC719502FEE00CD49FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D92CD919502FEE00CD49FF /* __18____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2D92CD119502FEE00CD49FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2D92CAF19502FEE00CD49FF /* 作业18网络编程 */;
+			targetProxy = C2D92CD019502FEE00CD49FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2D92CBC19502FEE00CD49FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2D92CBD19502FEE00CD49FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C2D92CD519502FEE00CD49FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2D92CD619502FEE00CD49FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2D92CDA19502FEE00CD49FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C2D92CDB19502FEE00CD49FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2D92CDD19502FEE00CD49FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "作业18网络编程/作业18网络编程-Prefix.pch";
+				INFOPLIST_FILE = "作业18网络编程/作业18网络编程-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C2D92CDE19502FEE00CD49FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "作业18网络编程/作业18网络编程-Prefix.pch";
+				INFOPLIST_FILE = "作业18网络编程/作业18网络编程-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C2D92CE019502FEE00CD49FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/作业18网络编程.app/作业18网络编程";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "作业18网络编程/作业18网络编程-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "作业18网络编程Tests/作业18网络编程Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C2D92CE119502FEE00CD49FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/作业18网络编程.app/作业18网络编程";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "作业18网络编程/作业18网络编程-Prefix.pch";
+				INFOPLIST_FILE = "作业18网络编程Tests/作业18网络编程Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2D92CAB19502FEE00CD49FF /* Build configuration list for PBXProject "作业18网络编程" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2D92CDA19502FEE00CD49FF /* Debug */,
+				C2D92CDB19502FEE00CD49FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2D92CDC19502FEE00CD49FF /* Build configuration list for PBXNativeTarget "作业18网络编程" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2D92CDD19502FEE00CD49FF /* Debug */,
+				C2D92CDE19502FEE00CD49FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2D92CDF19502FEE00CD49FF /* Build configuration list for PBXNativeTarget "作业18网络编程Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2D92CE019502FEE00CD49FF /* Debug */,
+				C2D92CE119502FEE00CD49FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2D92CA819502FEE00CD49FF /* Project object */;
+}
