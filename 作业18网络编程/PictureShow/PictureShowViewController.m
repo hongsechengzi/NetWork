@@ -53,7 +53,7 @@
     //目录
     NSString * itemsPath = [cachesPath stringByAppendingPathComponent:@"picture"];
     NSLog(@"itemsPath = %@",itemsPath);
-    if ([fileManager fileExistsAtPath:itemsPath]) {
+    if ([fileManager fileExistsAtPath:itemsPath] == NO) {
         
         [fileManager createDirectoryAtPath:itemsPath withIntermediateDirectories:YES attributes:nil error:nil];
     }
@@ -63,15 +63,23 @@
         NSString * urlString = [NSString stringWithFormat:@"http://img3.fengniao.com/forum/attachpics/764/74/3053464%d.jpg",i];
         NSString * fileName = [urlString stringByReplacingOccurrencesOfString:@"/" withString:@"_"];
         NSLog(@"file Name %@",fileName);
-        
         NSString * filePaht = [itemsPath stringByAppendingPathComponent:fileName];
         NSURL * url = [NSURL URLWithString:urlString];
-        NSMutableURLRequest * request = [NSMutableURLRequest requestWithURL:url cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:60.0];
-        [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
-            [data writeToFile:filePaht atomically:YES];
+        if ([fileManager fileExistsAtPath:filePaht] == NO) {
+            NSLog(@"------+++++++++-");
+            NSMutableURLRequest * request = [NSMutableURLRequest requestWithURL:url cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:60.0];
+            [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
+                [data writeToFile:filePaht atomically:YES];
+                UIImageView * imageView = [_pictureShowView.imageViewArray objectAtIndex:i];
+                imageView.image = [UIImage imageWithData:data];
+            }];
+        }else{
+            NSLog(@"----------------");
+            NSData * data = [NSData dataWithContentsOfFile:filePaht];
             UIImageView * imageView = [_pictureShowView.imageViewArray objectAtIndex:i];
             imageView.image = [UIImage imageWithData:data];
-        }];
+        
+        }
     }
 }
 - (void)handleAsynPictureDataDelegate
