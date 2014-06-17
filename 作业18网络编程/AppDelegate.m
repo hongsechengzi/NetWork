@@ -7,15 +7,26 @@
 //
 
 #import "AppDelegate.h"
+#import "DownloadTableViewController.h"
 
 @implementation AppDelegate
-
+- (void)dealloc
+{
+    RELEASE_SAFELY(_window);
+    [super dealloc];
+}
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    DownloadTableViewController * downloadVC = [[DownloadTableViewController alloc] initWithStyle:UITableViewStylePlain];
+    UINavigationController * rootNC = [[UINavigationController alloc] initWithRootViewController:downloadVC];
+    self.window.rootViewController = rootNC;
+    [downloadVC release];
+    [rootNC release];
+    
     return YES;
 }
 

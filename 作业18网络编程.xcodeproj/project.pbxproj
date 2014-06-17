@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C222A6B7195083A600E132C3 /* PictureShowData.m in Sources */ = {isa = PBXBuildFile; fileRef = C222A6B6195083A600E132C3 /* PictureShowData.m */; };
 		C2D92CB419502FEE00CD49FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D92CB319502FEE00CD49FF /* Foundation.framework */; };
 		C2D92CB619502FEE00CD49FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D92CB519502FEE00CD49FF /* CoreGraphics.framework */; };
 		C2D92CB819502FEE00CD49FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D92CB719502FEE00CD49FF /* UIKit.framework */; };
@@ -19,6 +20,12 @@
 		C2D92CCF19502FEE00CD49FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D92CB719502FEE00CD49FF /* UIKit.framework */; };
 		C2D92CD719502FEE00CD49FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2D92CD519502FEE00CD49FF /* InfoPlist.strings */; };
 		C2D92CD919502FEE00CD49FF /* __18____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D92CD819502FEE00CD49FF /* __18____Tests.m */; };
+		C2D92CE81950321E00CD49FF /* DownloadTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D92CE71950321E00CD49FF /* DownloadTableViewController.m */; };
+		C2E1590D19503947004190B3 /* NewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E1590C19503947004190B3 /* NewsTableViewController.m */; };
+		C2E1591019503962004190B3 /* PictureScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E1590F19503962004190B3 /* PictureScheduleViewController.m */; };
+		C2E1591319503972004190B3 /* PictureShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E1591219503972004190B3 /* PictureShowViewController.m */; };
+		C2E1591619503BD0004190B3 /* PictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E1591519503BD0004190B3 /* PictureView.m */; };
+		C2E1591919504210004190B3 /* PictureShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E1591819504210004190B3 /* PictureShowView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C222A6B5195083A600E132C3 /* PictureShowData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureShowData.h; sourceTree = "<group>"; };
+		C222A6B6195083A600E132C3 /* PictureShowData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureShowData.m; sourceTree = "<group>"; };
 		C2D92CB019502FEE00CD49FF /* 作业18网络编程.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "作业18网络编程.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D92CB319502FEE00CD49FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C2D92CB519502FEE00CD49FF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +57,18 @@
 		C2D92CD419502FEE00CD49FF /* 作业18网络编程Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "作业18网络编程Tests-Info.plist"; sourceTree = "<group>"; };
 		C2D92CD619502FEE00CD49FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C2D92CD819502FEE00CD49FF /* __18____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__18____Tests.m"; sourceTree = "<group>"; };
+		C2D92CE61950321E00CD49FF /* DownloadTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadTableViewController.h; sourceTree = "<group>"; };
+		C2D92CE71950321E00CD49FF /* DownloadTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadTableViewController.m; sourceTree = "<group>"; };
+		C2E1590B19503947004190B3 /* NewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewController.h; sourceTree = "<group>"; };
+		C2E1590C19503947004190B3 /* NewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewController.m; sourceTree = "<group>"; };
+		C2E1590E19503962004190B3 /* PictureScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureScheduleViewController.h; sourceTree = "<group>"; };
+		C2E1590F19503962004190B3 /* PictureScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureScheduleViewController.m; sourceTree = "<group>"; };
+		C2E1591119503972004190B3 /* PictureShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureShowViewController.h; sourceTree = "<group>"; };
+		C2E1591219503972004190B3 /* PictureShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureShowViewController.m; sourceTree = "<group>"; };
+		C2E1591419503BD0004190B3 /* PictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureView.h; sourceTree = "<group>"; };
+		C2E1591519503BD0004190B3 /* PictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureView.m; sourceTree = "<group>"; };
+		C2E1591719504210004190B3 /* PictureShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureShowView.h; sourceTree = "<group>"; };
+		C2E1591819504210004190B3 /* PictureShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureShowView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +130,10 @@
 			children = (
 				C2D92CC219502FEE00CD49FF /* AppDelegate.h */,
 				C2D92CC319502FEE00CD49FF /* AppDelegate.m */,
+				C2E159081950392B004190B3 /* NewsShow */,
+				C2E159091950392B004190B3 /* PictureSchedule */,
+				C2E1590A1950392B004190B3 /* PictureShow */,
+				C2D92CE2195031FA00CD49FF /* DownloadExercise */,
 				C2D92CC519502FEE00CD49FF /* Images.xcassets */,
 				C2D92CBA19502FEE00CD49FF /* Supporting Files */,
 			);
@@ -142,6 +167,48 @@
 				C2D92CD519502FEE00CD49FF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2D92CE2195031FA00CD49FF /* DownloadExercise */ = {
+			isa = PBXGroup;
+			children = (
+				C2D92CE61950321E00CD49FF /* DownloadTableViewController.h */,
+				C2D92CE71950321E00CD49FF /* DownloadTableViewController.m */,
+			);
+			path = DownloadExercise;
+			sourceTree = "<group>";
+		};
+		C2E159081950392B004190B3 /* NewsShow */ = {
+			isa = PBXGroup;
+			children = (
+				C2E1590B19503947004190B3 /* NewsTableViewController.h */,
+				C2E1590C19503947004190B3 /* NewsTableViewController.m */,
+			);
+			path = NewsShow;
+			sourceTree = "<group>";
+		};
+		C2E159091950392B004190B3 /* PictureSchedule */ = {
+			isa = PBXGroup;
+			children = (
+				C2E1590E19503962004190B3 /* PictureScheduleViewController.h */,
+				C2E1590F19503962004190B3 /* PictureScheduleViewController.m */,
+				C2E1591419503BD0004190B3 /* PictureView.h */,
+				C2E1591519503BD0004190B3 /* PictureView.m */,
+			);
+			path = PictureSchedule;
+			sourceTree = "<group>";
+		};
+		C2E1590A1950392B004190B3 /* PictureShow */ = {
+			isa = PBXGroup;
+			children = (
+				C2E1591119503972004190B3 /* PictureShowViewController.h */,
+				C2E1591219503972004190B3 /* PictureShowViewController.m */,
+				C2E1591719504210004190B3 /* PictureShowView.h */,
+				C2E1591819504210004190B3 /* PictureShowView.m */,
+				C222A6B5195083A600E132C3 /* PictureShowData.h */,
+				C222A6B6195083A600E132C3 /* PictureShowData.m */,
+			);
+			path = PictureShow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,8 +306,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2E1590D19503947004190B3 /* NewsTableViewController.m in Sources */,
+				C222A6B7195083A600E132C3 /* PictureShowData.m in Sources */,
 				C2D92CC419502FEE00CD49FF /* AppDelegate.m in Sources */,
+				C2E1591619503BD0004190B3 /* PictureView.m in Sources */,
+				C2E1591319503972004190B3 /* PictureShowViewController.m in Sources */,
+				C2E1591919504210004190B3 /* PictureShowView.m in Sources */,
+				C2E1591019503962004190B3 /* PictureScheduleViewController.m in Sources */,
 				C2D92CC019502FEE00CD49FF /* main.m in Sources */,
+				C2D92CE81950321E00CD49FF /* DownloadTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "作业18网络编程/作业18网络编程-Prefix.pch";
 				INFOPLIST_FILE = "作业18网络编程/作业18网络编程-Info.plist";
@@ -370,6 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "作业18网络编程/作业18网络编程-Prefix.pch";
 				INFOPLIST_FILE = "作业18网络编程/作业18网络编程-Info.plist";
@@ -437,6 +513,7 @@
 				C2D92CDE19502FEE00CD49FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2D92CDF19502FEE00CD49FF /* Build configuration list for PBXNativeTarget "作业18网络编程Tests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +522,7 @@
 				C2D92CE119502FEE00CD49FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
