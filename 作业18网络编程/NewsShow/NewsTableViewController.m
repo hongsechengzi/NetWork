@@ -34,7 +34,7 @@
 {
     [super viewDidLoad];
     self.navigationItem.title = @"新闻展示";
-    [self handleJSONParserData];
+    [self handleJSONParserDataAsyn];
     
 }
 
@@ -49,7 +49,7 @@
     [request setHTTPBody:[query dataUsingEncoding:NSUTF8StringEncoding]];
      [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue ] completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
          NSDictionary * jsonDic = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
-       // NSLog(@"jsonDic%@",jsonDic);
+       NSLog(@"jsonDic%@",jsonDic);
        
          NSArray * newsArray = [jsonDic objectForKey:@"news"];
          for (NSDictionary * newsDic in newsArray) {
